@@ -1,0 +1,727 @@
+#history
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    gap: 10px;
+    width: 1546px;
+    height: 50px;
+    padding: 10px;
+    direction: rtl;
+    background: url("../images/1.webp") 0 32% no-repeat;
+    background-size: cover;
+    border: 1px solid white;
+    border-radius: 5px;
+    overflow-x: hidden;
+}
+
+.history-key
+{
+    direction: ltr;
+    white-space: nowrap;
+}
+
+#keyboard
+{
+    display: grid;
+    grid-template-columns: repeat(46, 25px);
+    grid-template-rows: repeat(13, 25px);
+    gap: 8px;
+    width: fit-content;
+    padding: 16px;
+    background: url("../images/1.webp") center no-repeat;
+    background-size: cover;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.key
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: 500;
+    border: 1px solid white;
+    border-radius: 5px;
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(3px) /* Safari */
+}
+
+.key.active
+{
+    color: #1c1c24;
+    background-color: #ffffffcc;
+    border: none;
+}
+
+.key.press
+{
+    color: white;
+    background-color: #ffa500cc;
+    border: none;
+}
+
+.key img
+{
+    width: 100%;
+    max-width: 1.5em;
+    height: auto;
+    filter: invert(100%) sepia(100%) saturate(2%) hue-rotate(198deg) brightness(101%) contrast(101%);
+}
+
+.key.active img
+{
+    filter: invert(9%) sepia(12%) saturate(965%) hue-rotate(202deg) brightness(97%) contrast(95%);
+}
+
+.key.press img
+{
+    filter: invert(100%) sepia(100%) saturate(2%) hue-rotate(198deg) brightness(101%) contrast(101%);
+}
+
+/* Function */
+#key-27
+{
+    grid-column: 1/3;
+    grid-row: 1/3;
+}
+
+#key-112
+{
+    grid-column: 5/7;
+    grid-row: 1/3;
+}
+
+#key-113
+{
+    grid-column: 7/9;
+    grid-row: 1/3;
+}
+
+#key-114
+{
+    grid-column: 9/11;
+    grid-row: 1/3;
+}
+
+#key-115
+{
+    grid-column: 11/13;
+    grid-row: 1/3;
+}
+
+#key-116
+{
+    grid-column: 14/16;
+    grid-row: 1/3;
+}
+
+#key-117
+{
+    grid-column: 16/18;
+    grid-row: 1/3;
+}
+
+#key-118
+{
+    grid-column: 18/20;
+    grid-row: 1/3;
+}
+
+#key-119
+{
+    grid-column: 20/22;
+    grid-row: 1/3;
+}
+
+#key-120
+{
+    grid-column: 23/25;
+    grid-row: 1/3;
+}
+
+#key-121
+{
+    grid-column: 25/27;
+    grid-row: 1/3;
+}
+
+#key-122
+{
+    grid-column: 27/29;
+    grid-row: 1/3;
+}
+
+#key-123
+{
+    grid-column: 29/31;
+    grid-row: 1/3;
+}
+/* Function end */
+
+/* Alphanumeric */
+/* 1st row */
+#key-192
+{
+    grid-column: 1/3;
+    grid-row: 4/6;
+}
+
+#key-49
+{
+    grid-column: 3/5;
+    grid-row: 4/6;
+}
+
+#key-50
+{
+    grid-column: 5/7;
+    grid-row: 4/6;
+}
+
+#key-51
+{
+    grid-column: 7/9;
+    grid-row: 4/6;
+}
+
+#key-52
+{
+    grid-column: 9/11;
+    grid-row: 4/6;
+}
+
+#key-53
+{
+    grid-column: 11/13;
+    grid-row: 4/6;
+}
+
+#key-54
+{
+    grid-column: 13/15;
+    grid-row: 4/6;
+}
+
+#key-55
+{
+    grid-column: 15/17;
+    grid-row: 4/6;
+}
+
+#key-56
+{
+    grid-column: 17/19;
+    grid-row: 4/6;
+}
+
+#key-57
+{
+    grid-column: 19/21;
+    grid-row: 4/6;
+}
+
+#key-48
+{
+    grid-column: 21/23;
+    grid-row: 4/6;
+}
+
+#key-109
+{
+    grid-column: 23/25;
+    grid-row: 4/6;
+}
+
+#key-109-l
+{
+    grid-column: 23/25;
+    grid-row: 4/6;
+}
+
+#key-61
+{
+    grid-column: 25/27;
+    grid-row: 4/6;
+}
+
+#key-8
+{
+    grid-column: 27/31;
+    grid-row: 4/6;
+}
+/* 1st row end */
+
+/* 2nd row */
+#key-9
+{
+    grid-column: 1/4;
+    grid-row: 6/8;
+}
+
+#key-81
+{
+    grid-column: 4/6;
+    grid-row: 6/8;
+}
+
+#key-87
+{
+    grid-column: 6/8;
+    grid-row: 6/8;
+}
+
+#key-69
+{
+    grid-column: 8/10;
+    grid-row: 6/8;
+}
+
+#key-82
+{
+    grid-column: 10/12;
+    grid-row: 6/8;
+}
+
+#key-84
+{
+    grid-column: 12/14;
+    grid-row: 6/8;
+}
+
+#key-89
+{
+    grid-column: 14/16;
+    grid-row: 6/8;
+}
+
+#key-85
+{
+    grid-column: 16/18;
+    grid-row: 6/8;
+}
+
+#key-73
+{
+    grid-column: 18/20;
+    grid-row: 6/8;
+}
+
+#key-79
+{
+    grid-column: 20/22;
+    grid-row: 6/8;
+}
+
+#key-80
+{
+    grid-column: 22/24;
+    grid-row: 6/8;
+}
+
+#key-219
+{
+    grid-column: 24/26;
+    grid-row: 6/8;
+}
+
+#key-221
+{
+    grid-column: 26/28;
+    grid-row: 6/8;
+}
+
+#key-220
+{
+    grid-column: 28/31;
+    grid-row: 6/8;
+}
+/* 2nd row end */
+
+/* 3rd row */
+#key-20
+{
+    grid-column: 1/5;
+    grid-row: 8/10;
+}
+
+#key-65
+{
+    grid-column: 5/7;
+    grid-row: 8/10;
+}
+
+#key-83
+{
+    grid-column: 7/9;
+    grid-row: 8/10;
+}
+
+#key-68
+{
+    grid-column: 9/11;
+    grid-row: 8/10;
+}
+
+#key-70
+{
+    grid-column: 11/13;
+    grid-row: 8/10;
+}
+
+#key-71
+{
+    grid-column: 13/15;
+    grid-row: 8/10;
+}
+
+#key-72
+{
+    grid-column: 15/17;
+    grid-row: 8/10;
+}
+
+#key-74
+{
+    grid-column: 17/19;
+    grid-row: 8/10;
+}
+
+#key-75
+{
+    grid-column: 19/21;
+    grid-row: 8/10;
+}
+
+#key-76
+{
+    grid-column: 21/23;
+    grid-row: 8/10;
+}
+
+#key-59
+{
+    grid-column: 23/25;
+    grid-row: 8/10;
+}
+
+#key-222
+{
+    grid-column: 25/27;
+    grid-row: 8/10;
+}
+
+#key-13-l
+{
+    grid-column: 27/31;
+    grid-row: 8/10;
+}
+/* 3rd row end */
+
+/* 4th row */
+#key-16-l
+{
+    grid-column: 1/6;
+    grid-row: 10/12;
+}
+
+#key-90
+{
+    grid-column: 6/8;
+    grid-row: 10/12;
+}
+
+#key-88
+{
+    grid-column: 8/10;
+    grid-row: 10/12;
+}
+
+#key-67
+{
+    grid-column: 10/12;
+    grid-row: 10/12;
+}
+
+#key-86
+{
+    grid-column: 12/14;
+    grid-row: 10/12;
+}
+
+#key-66
+{
+    grid-column: 14/16;
+    grid-row: 10/12;
+}
+
+#key-78
+{
+    grid-column: 16/18;
+    grid-row: 10/12;
+}
+
+#key-77
+{
+    grid-column: 18/20;
+    grid-row: 10/12;
+}
+
+#key-188
+{
+    grid-column: 20/22;
+    grid-row: 10/12;
+}
+
+#key-190
+{
+    grid-column: 22/24;
+    grid-row: 10/12;
+}
+
+#key-191
+{
+    grid-column: 24/26;
+    grid-row: 10/12;
+}
+
+#key-16-r
+{
+    grid-column: 26/31;
+    grid-row: 10/12;
+}
+/* 4th row end */
+
+/* 5th row */
+#key-17-l
+{
+    grid-column: 1/4;
+    grid-row: 12/14;
+}
+
+#key-91
+{
+    grid-column: 4/7;
+    grid-row: 12/14;
+}
+
+#key-18-l
+{
+    grid-column: 7/10;
+    grid-row: 12/14;
+}
+
+#key-32
+{
+    grid-column: 10/22;
+    grid-row: 12/14;
+}
+
+#key-18-r
+{
+    grid-column: 22/25;
+    grid-row: 12/14;
+}
+
+#key-93
+{
+    grid-column: 25/28;
+    grid-row: 12/14;
+}
+
+#key-17-r
+{
+    grid-column: 28/31;
+    grid-row: 12/14;
+}
+/* 5th row end */
+/* Alphanumeric end */
+
+/* Control pad */
+#key-44
+{
+    grid-column: 32/34;
+    grid-row: 1/3;
+}
+
+#key-145
+{
+    grid-column: 34/36;
+    grid-row: 1/3;
+}
+
+#key-19
+{
+    grid-column: 36/38;
+    grid-row: 1/3;
+}
+
+#key-45
+{
+    grid-column: 32/34;
+    grid-row: 4/6;
+}
+
+#key-36
+{
+    grid-column: 34/36;
+    grid-row: 4/6;
+}
+
+#key-33
+{
+    grid-column: 36/38;
+    grid-row: 4/6;
+}
+
+#key-46
+{
+    grid-column: 32/34;
+    grid-row: 6/8;
+}
+
+#key-35
+{
+    grid-column: 34/36;
+    grid-row: 6/8;
+}
+
+#key-34
+{
+    grid-column: 36/38;
+    grid-row: 6/8;
+}
+/* Control pad end */
+
+/* Arrow pad */
+#key-38
+{
+    grid-column: 34/36;
+    grid-row: 10/12;
+}
+
+#key-37
+{
+    grid-column: 32/34;
+    grid-row: 12/14;
+}
+
+#key-40
+{
+    grid-column: 34/36;
+    grid-row: 12/14;
+}
+
+#key-39
+{
+    grid-column: 36/38;
+    grid-row: 12/14;
+}
+/* Arrow pad end */
+
+/* Numpad */
+#key-144
+{
+    grid-column: 39/41;
+    grid-row: 4/6;
+}
+
+#key-111
+{
+    grid-column: 41/43;
+    grid-row: 4/6;
+}
+
+#key-106
+{
+    grid-column: 43/45;
+    grid-row: 4/6;
+}
+
+#key-109-r
+{
+    grid-column: 45/47;
+    grid-row: 4/6;
+}
+
+#key-103
+{
+    grid-column: 39/41;
+    grid-row: 6/8;
+}
+
+#key-104
+{
+    grid-column: 41/43;
+    grid-row: 6/8;
+}
+
+#key-105
+{
+    grid-column: 43/45;
+    grid-row: 6/8;
+}
+
+#key-107
+{
+    grid-column: 45/47;
+    grid-row: 6/10;
+}
+
+#key-100
+{
+    grid-column: 39/41;
+    grid-row: 8/10;
+}
+
+#key-101
+{
+    grid-column: 41/43;
+    grid-row: 8/10;
+}
+
+#key-102
+{
+    grid-column: 43/45;
+    grid-row: 8/10;
+}
+
+#key-97
+{
+    grid-column: 39/41;
+    grid-row: 10/12;
+}
+
+#key-98
+{
+    grid-column: 41/43;
+    grid-row: 10/12;
+}
+
+#key-99
+{
+    grid-column: 43/45;
+    grid-row: 10/12;
+}
+
+#key-13-r
+{
+    grid-column: 45/47;
+    grid-row: 10/14;
+}
+
+#key-96
+{
+    grid-column: 39/43;
+    grid-row: 12/14;
+}
+
+#key-110
+{
+    grid-column: 43/45;
+    grid-row: 12/14;
+}
+/* Numpad end */

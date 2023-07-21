@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Keyboard Test</title>
+    <link rel="shortcut icon" href="images/icons/esc.png">
+    <link rel="stylesheet" href="styles/global.css">
+    <link rel="stylesheet" href="styles/keyboard.css">
+
+    <script src="scripts/keyboard.js" defer></script>
+</head>
+
+<body>
+    <main>
+        <div id="history"></div>
+
+        <div id="keyboard">
+            <div class="key" id="key-27">Esc</div>
+            <div class="key" id="key-112">F1</div>
+            <div class="key" id="key-113">F2</div>
+            <div class="key" id="key-114">F3</div>
+            <div class="key" id="key-115">F4</div>
+            <div class="key" id="key-116">F5</div>
+            <div class="key" id="key-117">F6</div>
+            <div class="key" id="key-118">F7</div>
+            <div class="key" id="key-119">F8</div>
+            <div class="key" id="key-120">F9</div>
+            <div class="key" id="key-121">F10</div>
+            <div class="key" id="key-122">F11</div>
+            <div class="key" id="key-123">F12</div>
+
+            <div class="key" id="key-192">
+                <span>~</span>
+                <span>`</span>
+            </div>
+            <div class="key" id="key-49">1</div>
+            <div class="key" id="key-50">2</div>
+            <div class="key" id="key-51">3</div>
+            <div class="key" id="key-52">4</div>
+            <div class="key" id="key-53">5</div>
+            <div class="key" id="key-54">6</div>
+            <div class="key" id="key-55">7</div>
+            <div class="key" id="key-56">8</div>
+            <div class="key" id="key-57">9</div>
+            <div class="key" id="key-48">0</div>
+            <div class="key" id="key-109-l">
+                <span>_</span>
+                <span>-</span>
+            </div>
+            <div class="key" id="key-61">
+                <span>+</span>
+                <span>=</span>
+            </div>
+            <div class="key" id="key-8">Backspace</div>
+            <div class="key" id="key-9">Tab</div>
+            <div class="key" id="key-81">Q</div>
+            <div class="key" id="key-87">W</div>
+            <div class="key" id="key-69">E</div>
+            <div class="key" id="key-82">R</div>
+            <div class="key" id="key-84">T</div>
+            <div class="key" id="key-89">Y</div>
+            <div class="key" id="key-85">U</div>
+            <div class="key" id="key-73">I</div>
+            <div class="key" id="key-79">O</div>
+            <div class="key" id="key-80">P</div>
+            <div class="key" id="key-219">
+                <span>{</span>
+                <span>[</span>
+            </div>
+            <div class="key" id="key-221">
+                <span>}</span>
+                <span>]</span>
+            </div>
+            <div class="key" id="key-220">
+                <span>|</span>
+                <span>\</span>
+            </div>
+            <div class="key" id="key-20">Caps Lock</div>
+            <div class="key" id="key-65">A</div>
+            <div class="key" id="key-83">S</div>
+            <div class="key" id="key-68">D</div>
+            <div class="key" id="key-70">F</div>
+            <div class="key" id="key-71">G</div>
+            <div class="key" id="key-72">H</div>
+            <div class="key" id="key-74">J</div>
+            <div class="key" id="key-75">K</div>
+            <div class="key" id="key-76">L</div>
+            <div class="key" id="key-59">
+                <span>:</span>
+                <span>;</span>
+            </div>
+            <div class="key" id="key-222">
+                <span>"</span>
+                <span>'</span>
+            </div>
+            <div class="key" id="key-13-l">Enter</div>
+            <div class="key" id="key-16-l">Shift</div>
+            <div class="key" id="key-90">Z</div>
+            <div class="key" id="key-88">X</div>
+            <div class="key" id="key-67">C</div>
+            <div class="key" id="key-86">V</div>
+            <div class="key" id="key-66">B</div>
+            <div class="key" id="key-78">N</div>
+            <div class="key" id="key-77">M</div>
+            <div class="key" id="key-188">
+                <span><</span>
+                <span>,</span>
+            </div>
+            <div class="key" id="key-190">
+                <span>></span>
+                <span>.</span>
+            </div>
+            <div class="key" id="key-191">
+                <span>?</span>
+                <span>/</span>
+            </div>
+            <div class="key" id="key-16-r">Shift</div>
+            <div class="key" id="key-17-l">Ctrl</div>
+            <div class="key" id="key-91">
+                <img src="images/icons/win.png" alt="win">
+            </div>
+            <div class="key" id="key-18-l">Alt</div>
+            <div class="key" id="key-32"></div>
+            <div class="key" id="key-18-r">Alt</div>
+            <div class="key" id="key-93">
+                <img src="images/icons/menu.png" alt="win">
+            </div>
+            <div class="key" id="key-17-r">Ctrl</div>
+
+            <div class="key" id="key-44">PrtSc</div>
+            <div class="key" id="key-145">ScrLk</div>
+            <div class="key" id="key-19">Pause</div>
+            <div class="key" id="key-45">ins</div>
+            <div class="key" id="key-36">Home</div>
+            <div class="key" id="key-33">PgUp</div>
+            <div class="key" id="key-46">Del</div>
+            <div class="key" id="key-35">End</div>
+            <div class="key" id="key-34">PgDn</div>
+
+            <div class="key" id="key-38">↑</div>
+            <div class="key" id="key-37">←</div>
+            <div class="key" id="key-40">↓</div>
+            <div class="key" id="key-39">→</div>
+
+            <div class="key" id="key-144">Num Lock</div>
+            <div class="key" id="key-111">/</div>
+            <div class="key" id="key-106">*</div>
+            <div class="key" id="key-109-r">-</div>
+            <div class="key" id="key-103">7</div>
+            <div class="key" id="key-104">8</div>
+            <div class="key" id="key-105">9</div>
+            <div class="key" id="key-107">+</div>
+            <div class="key" id="key-100">4</div>
+            <div class="key" id="key-101">5</div>
+            <div class="key" id="key-102">6</div>
+            <div class="key" id="key-97">1</div>
+            <div class="key" id="key-98">2</div>
+            <div class="key" id="key-99">3</div>
+            <div class="key" id="key-13-r">Enter</div>
+            <div class="key" id="key-96">0</div>
+            <div class="key" id="key-110">.</div>
+        </div>
+    </main>
+</body>
+</html>
