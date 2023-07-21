@@ -35,5 +35,5 @@ function pressKey(keyName)
         document.getElementById(keyName).classList.add("active")
         document.getElementById(keyName).classList.toggle("press")
     }
-    else console.log("%cError:%cThere is no key with such id (" + keyName + ")", "color: red")
+    else console.log("%cError:%c There is no key with such id (" + keyName + ")", "color: red", "color: white")
 }
