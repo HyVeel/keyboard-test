@@ -1,6 +1,5 @@
 document.addEventListener("keydown", keylogger)
 document.addEventListener("keyup", keylogger)
-document.addEventListener("click", keylogger)
 document.addEventListener("contextmenu", key => key.preventDefault())
 
 let keyboard = document.getElementById("keyboard")
