@@ -83,79 +83,79 @@
 }
 
 /* Function */
-#key-27
+#key-Escape
 {
     grid-column: 1/3;
     grid-row: 1/3;
 }
 
-#key-112
+#key-F1
 {
     grid-column: 5/7;
     grid-row: 1/3;
 }
 
-#key-113
+#key-F2
 {
     grid-column: 7/9;
     grid-row: 1/3;
 }
 
-#key-114
+#key-F3
 {
     grid-column: 9/11;
     grid-row: 1/3;
 }
 
-#key-115
+#key-F4
 {
     grid-column: 11/13;
     grid-row: 1/3;
 }
 
-#key-116
+#key-F5
 {
     grid-column: 14/16;
     grid-row: 1/3;
 }
 
-#key-117
+#key-F6
 {
     grid-column: 16/18;
     grid-row: 1/3;
 }
 
-#key-118
+#key-F7
 {
     grid-column: 18/20;
     grid-row: 1/3;
 }
 
-#key-119
+#key-F8
 {
     grid-column: 20/22;
     grid-row: 1/3;
 }
 
-#key-120
+#key-F9
 {
     grid-column: 23/25;
     grid-row: 1/3;
 }
 
-#key-121
+#key-F10
 {
     grid-column: 25/27;
     grid-row: 1/3;
 }
 
-#key-122
+#key-F11
 {
     grid-column: 27/29;
     grid-row: 1/3;
 }
 
-#key-123
+#key-F12
 {
     grid-column: 29/31;
     grid-row: 1/3;
@@ -164,91 +164,85 @@
 
 /* Alphanumeric */
 /* 1st row */
-#key-192
+#key-Backquote
 {
     grid-column: 1/3;
     grid-row: 4/6;
 }
 
-#key-49
+#key-Digit1
 {
     grid-column: 3/5;
     grid-row: 4/6;
 }
 
-#key-50
+#key-Digit2
 {
     grid-column: 5/7;
     grid-row: 4/6;
 }
 
-#key-51
+#key-Digit3
 {
     grid-column: 7/9;
     grid-row: 4/6;
 }
 
-#key-52
+#key-Digit4
 {
     grid-column: 9/11;
     grid-row: 4/6;
 }
 
-#key-53
+#key-Digit5
 {
     grid-column: 11/13;
     grid-row: 4/6;
 }
 
-#key-54
+#key-Digit6
 {
     grid-column: 13/15;
     grid-row: 4/6;
 }
 
-#key-55
+#key-Digit7
 {
     grid-column: 15/17;
     grid-row: 4/6;
 }
 
-#key-56
+#key-Digit8
 {
     grid-column: 17/19;
     grid-row: 4/6;
 }
 
-#key-57
+#key-Digit9
 {
     grid-column: 19/21;
     grid-row: 4/6;
 }
 
-#key-48
+#key-Digit0
 {
     grid-column: 21/23;
     grid-row: 4/6;
 }
 
-#key-109
+#key-Subtract
 {
     grid-column: 23/25;
     grid-row: 4/6;
 }
 
-#key-109-l
-{
-    grid-column: 23/25;
-    grid-row: 4/6;
-}
-
-#key-61
+#key-Equal
 {
     grid-column: 25/27;
     grid-row: 4/6;
 }
 
-#key-8
+#key-Backspace
 {
     grid-column: 27/31;
     grid-row: 4/6;
@@ -256,85 +250,85 @@
 /* 1st row end */
 
 /* 2nd row */
-#key-9
+#key-Tab
 {
     grid-column: 1/4;
     grid-row: 6/8;
 }
 
-#key-81
+#key-KeyQ
 {
     grid-column: 4/6;
     grid-row: 6/8;
 }
 
-#key-87
+#key-KeyW
 {
     grid-column: 6/8;
     grid-row: 6/8;
 }
 
-#key-69
+#key-KeyE
 {
     grid-column: 8/10;
     grid-row: 6/8;
 }
 
-#key-82
+#key-KeyR
 {
     grid-column: 10/12;
     grid-row: 6/8;
 }
 
-#key-84
+#key-KeyT
 {
     grid-column: 12/14;
     grid-row: 6/8;
 }
 
-#key-89
+#key-KeyY
 {
     grid-column: 14/16;
     grid-row: 6/8;
 }
 
-#key-85
+#key-KeyU
 {
     grid-column: 16/18;
     grid-row: 6/8;
 }
 
-#key-73
+#key-KeyI
 {
     grid-column: 18/20;
     grid-row: 6/8;
 }
 
-#key-79
+#key-KeyO
 {
     grid-column: 20/22;
     grid-row: 6/8;
 }
 
-#key-80
+#key-KeyP
 {
     grid-column: 22/24;
     grid-row: 6/8;
 }
 
-#key-219
+#key-BracketLeft
 {
     grid-column: 24/26;
     grid-row: 6/8;
 }
 
-#key-221
+#key-BracketRight
 {
     grid-column: 26/28;
     grid-row: 6/8;
 }
 
-#key-220
+#key-Backslash
 {
     grid-column: 28/31;
     grid-row: 6/8;
@@ -342,79 +336,79 @@
 /* 2nd row end */
 
 /* 3rd row */
-#key-20
+#key-CapsLock
 {
     grid-column: 1/5;
     grid-row: 8/10;
 }
 
-#key-65
+#key-KeyA
 {
     grid-column: 5/7;
     grid-row: 8/10;
 }
 
-#key-83
+#key-KeyS
 {
     grid-column: 7/9;
     grid-row: 8/10;
 }
 
-#key-68
+#key-KeyD
 {
     grid-column: 9/11;
     grid-row: 8/10;
 }
 
-#key-70
+#key-KeyF
 {
     grid-column: 11/13;
     grid-row: 8/10;
 }
 
-#key-71
+#key-KeyG
 {
     grid-column: 13/15;
     grid-row: 8/10;
 }
 
-#key-72
+#key-KeyH
 {
     grid-column: 15/17;
     grid-row: 8/10;
 }
 
-#key-74
+#key-KeyJ
 {
     grid-column: 17/19;
     grid-row: 8/10;
 }
 
-#key-75
+#key-KeyK
 {
     grid-column: 19/21;
     grid-row: 8/10;
 }
 
-#key-76
+#key-KeyL
 {
     grid-column: 21/23;
     grid-row: 8/10;
 }
 
-#key-59
+#key-Semicolon
 {
     grid-column: 23/25;
     grid-row: 8/10;
 }
 
-#key-222
+#key-Quote
 {
     grid-column: 25/27;
     grid-row: 8/10;
 }
 
-#key-13-l
+#key-Enter
 {
     grid-column: 27/31;
     grid-row: 8/10;
@@ -422,73 +416,73 @@
 /* 3rd row end */
 
 /* 4th row */
-#key-16-l
+#key-ShiftLeft
 {
     grid-column: 1/6;
     grid-row: 10/12;
 }
 
-#key-90
+#key-KeyZ
 {
     grid-column: 6/8;
     grid-row: 10/12;
 }
 
-#key-88
+#key-KeyX
 {
     grid-column: 8/10;
     grid-row: 10/12;
 }
 
-#key-67
+#key-KeyC
 {
     grid-column: 10/12;
     grid-row: 10/12;
 }
 
-#key-86
+#key-KeyV
 {
     grid-column: 12/14;
     grid-row: 10/12;
 }
 
-#key-66
+#key-KeyB
 {
     grid-column: 14/16;
     grid-row: 10/12;
 }
 
-#key-78
+#key-KeyN
 {
     grid-column: 16/18;
     grid-row: 10/12;
 }
 
-#key-77
+#key-KeyM
 {
     grid-column: 18/20;
     grid-row: 10/12;
 }
 
-#key-188
+#key-Comma
 {
     grid-column: 20/22;
     grid-row: 10/12;
 }
 
-#key-190
+#key-Period
 {
     grid-column: 22/24;
     grid-row: 10/12;
 }
 
-#key-191
+#key-Slash
 {
     grid-column: 24/26;
     grid-row: 10/12;
 }
 
-#key-16-r
+#key-ShiftRight
 {
     grid-column: 26/31;
     grid-row: 10/12;
@@ -496,43 +490,43 @@
 /* 4th row end */
 
 /* 5th row */
-#key-17-l
+#key-ControlLeft
 {
     grid-column: 1/4;
     grid-row: 12/14;
 }
 
-#key-91
+#key-OSLeft
 {
     grid-column: 4/7;
     grid-row: 12/14;
 }
 
-#key-18-l
+#key-AltLeft
 {
     grid-column: 7/10;
     grid-row: 12/14;
 }
 
-#key-32
+#key-Space
 {
     grid-column: 10/22;
     grid-row: 12/14;
 }
 
-#key-18-r
+#key-AltRight
 {
     grid-column: 22/25;
     grid-row: 12/14;
 }
 
-#key-93
+#key-ContextMenu
 {
     grid-column: 25/28;
     grid-row: 12/14;
 }
 
-#key-17-r
+#key-ControlRight
 {
     grid-column: 28/31;
     grid-row: 12/14;
@@ -541,55 +535,55 @@
 /* Alphanumeric end */
 
 /* Control pad */
-#key-44
+#key-PrintScreen
 {
     grid-column: 32/34;
     grid-row: 1/3;
 }
 
-#key-145
+#key-ScrollLock
 {
     grid-column: 34/36;
     grid-row: 1/3;
 }
 
-#key-19
+#key-Pause
 {
     grid-column: 36/38;
     grid-row: 1/3;
 }
 
-#key-45
+#key-Insert
 {
     grid-column: 32/34;
     grid-row: 4/6;
 }
 
-#key-36
+#key-Home
 {
     grid-column: 34/36;
     grid-row: 4/6;
 }
 
-#key-33
+#key-PageUp
 {
     grid-column: 36/38;
     grid-row: 4/6;
 }
 
-#key-46
+#key-Delete
 {
     grid-column: 32/34;
     grid-row: 6/8;
 }
 
-#key-35
+#key-End
 {
     grid-column: 34/36;
     grid-row: 6/8;
 }
 
-#key-34
+#key-PageDown
 {
     grid-column: 36/38;
     grid-row: 6/8;
@@ -597,25 +591,25 @@
 /* Control pad end */
 
 /* Arrow pad */
-#key-38
+#key-ArrowUp
 {
     grid-column: 34/36;
     grid-row: 10/12;
 }
 
-#key-37
+#key-ArrowLeft
 {
     grid-column: 32/34;
     grid-row: 12/14;
 }
 
-#key-40
+#key-ArrowDown
 {
     grid-column: 34/36;
     grid-row: 12/14;
 }
 
-#key-39
+#key-ArrowRight
 {
     grid-column: 36/38;
     grid-row: 12/14;
@@ -623,103 +617,103 @@
 /* Arrow pad end */
 
 /* Numpad */
-#key-144
+#key-NumLock
 {
     grid-column: 39/41;
     grid-row: 4/6;
 }
 
-#key-111
+#key-NumpadDivide
 {
     grid-column: 41/43;
     grid-row: 4/6;
 }
 
-#key-106
+#key-NumpadMultiply
 {
     grid-column: 43/45;
     grid-row: 4/6;
 }
 
-#key-109-r
+#key-NumpadSubtract
 {
     grid-column: 45/47;
     grid-row: 4/6;
 }
 
-#key-103
+#key-Numpad7
 {
     grid-column: 39/41;
     grid-row: 6/8;
 }
 
-#key-104
+#key-Numpad8
 {
     grid-column: 41/43;
     grid-row: 6/8;
 }
 
-#key-105
+#key-Numpad9
 {
     grid-column: 43/45;
     grid-row: 6/8;
 }
 
-#key-107
+#key-NumpadAdd
 {
     grid-column: 45/47;
     grid-row: 6/10;
 }
 
-#key-100
+#key-Numpad4
 {
     grid-column: 39/41;
     grid-row: 8/10;
 }
 
-#key-101
+#key-Numpad5
 {
     grid-column: 41/43;
     grid-row: 8/10;
 }
 
-#key-102
+#key-Numpad6
 {
     grid-column: 43/45;
     grid-row: 8/10;
 }
 
-#key-97
+#key-Numpad1
 {
     grid-column: 39/41;
     grid-row: 10/12;
 }
 
-#key-98
+#key-Numpad2
 {
     grid-column: 41/43;
     grid-row: 10/12;
 }
 
-#key-99
+#key-Numpad3
 {
     grid-column: 43/45;
     grid-row: 10/12;
 }
 
-#key-13-r
+#key-NumpadEnter
 {
     grid-column: 45/47;
     grid-row: 10/14;
 }
 
-#key-96
+#key-Numpad0
 {
     grid-column: 39/43;
     grid-row: 12/14;
 }
 
-#key-110
+#key-NumpadDecimal
 {
     grid-column: 43/45;
     grid-row: 12/14;
