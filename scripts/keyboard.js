@@ -16,11 +16,17 @@ function keylogger(key)
     {
         if(key.type == "keydown")
         {
-            history.innerHTML += "<p class='history-key'>&lt" + key.key.toUpperCase() + "&gt</p>"
+            let historyKey
+            if(key.key == ";") historyKey = "&semi;"
+            else if(key.key == " ") historyKey = "SPACE"
+            else historyKey = key.key.toUpperCase()
+
+            history.innerHTML += "<p class='history-key'>&lt" + historyKey + "&gt</p>"
             if(history.children.length > historyLimit) history.removeChild(history.children[0])
         }
 
-        pressKey("key-" + key.code)
+        if(key.code == "MetaLeft") pressKey("key-OSLeft")
+        else pressKey("key-" + key.code)
     }
 }
 
