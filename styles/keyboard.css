@@ -4,14 +4,15 @@
     flex-direction: row;
     justify-content: end;
     align-items: center;
-    gap: 10px;
-    width: 1546px;
+    gap: 8px;
+    width: 1360px;
     height: 50px;
-    padding: 10px;
+    padding-left: 16px;
+    font-size: 14px;
     direction: rtl;
-    background: url("../images/1.webp") 0 32% no-repeat;
+    background: url("../images/earth.webp") 0 32% no-repeat;
     background-size: cover;
-    border: 1px solid white;
+    border: 0.5px solid #ffffffbb;
     border-radius: 5px;
     overflow-x: hidden;
 }
@@ -19,20 +20,21 @@
 .history-key
 {
     direction: ltr;
+    line-height: 1;
     white-space: nowrap;
 }
 
 #keyboard
 {
     display: grid;
-    grid-template-columns: repeat(46, 25px);
-    grid-template-rows: repeat(13, 25px);
+    grid-template-columns: repeat(46, 21px);
+    grid-template-rows: repeat(13, 21px);
     gap: 8px;
     width: fit-content;
     padding: 16px;
-    background: url("../images/1.webp") center no-repeat;
+    background: url("../images/earth.webp") center no-repeat;
     background-size: cover;
-    border: 1px solid white;
+    border: 0.5px solid #ffffffbb;
     border-radius: 5px;
 }
 
@@ -42,9 +44,10 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-size: 14px;
     text-align: center;
-    font-weight: 500;
-    border: 1px solid white;
+    line-height: 1;
+    border: 0.5px solid #ffffffbb;
     border-radius: 5px;
     backdrop-filter: blur(3px);
     -webkit-backdrop-filter: blur(3px) /* Safari */
@@ -61,7 +64,6 @@
 {
     color: white;
     background-color: #ffa500cc;
-    border: none;
 }
 
 .key img
