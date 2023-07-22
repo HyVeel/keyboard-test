@@ -2,11 +2,10 @@ document.addEventListener("keydown", keylogger)
 document.addEventListener("keyup", keylogger)
 document.addEventListener("contextmenu", key => key.preventDefault())
 
-let keyboard = document.getElementById("keyboard")
+let stats = document.getElementById("stats")
 let history = document.getElementById("history")
 let historyLimit = 50
-
-history.style.width = keyboard.offsetWidth + "px"
+let pressedKeys = 0
 
 function keylogger(key)
 {
@@ -14,28 +13,26 @@ function keylogger(key)
 
     if(!key.repeat)
     {
-        if(key.type == "keydown")
+        pressKey("key-" + (key.code == "MetaLeft" ? "OSLeft" : key.code))
+        
+        stats.innerText = (pressedKeys == 0 ? "" : pressedKeys)
+        
+        if(key.type == "keydown" || key.code == "PrintScreen")
         {
-            let historyKey
-            if(key.key == ";") historyKey = "&semi;"
-            else if(key.key == " ") historyKey = "SPACE"
-            else historyKey = key.key.toUpperCase()
-
-            history.innerHTML += "<p class='history-key'>&lt" + historyKey + "&gt</p>"
+            history.innerHTML += "<p class='history-key'>&lt;" + (key.key == " " ? "SPACE" : key.key.toUpperCase()) + "&gt;</p>"
             if(history.children.length > historyLimit) history.removeChild(history.children[0])
         }
-
-        if(key.code == "MetaLeft") pressKey("key-OSLeft")
-        else pressKey("key-" + key.code)
     }
 }
 
 function pressKey(keyName)
 {
-    if(document.getElementById(keyName))
+    if(key = document.getElementById(keyName))
     {
-        document.getElementById(keyName).classList.add("active")
-        document.getElementById(keyName).classList.toggle("press")
+        key.classList.add("active")
+        key.classList.toggle("press")
+
+        pressedKeys += (key.classList.contains("press") ? 1 : -1)
     }
-    else console.log("%cError:%c There is no key with such id (" + keyName + ")", "color: red", "color: white")
+    else console.log(`%cError:%c There is no key with such id (${keyName})`, "color: red", "color: white")
 }

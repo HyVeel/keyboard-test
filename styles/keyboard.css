@@ -1,15 +1,17 @@
-#history
+#keyboard-box
+{
+    display: grid;
+    grid-template-rows: 50px auto;
+    gap: 8px;
+    width: min-content;
+    line-height: 1;
+}
+
+#top-panel
 {
     display: flex;
-    flex-direction: row;
-    justify-content: end;
-    align-items: center;
-    gap: 8px;
-    width: 1360px;
-    height: 50px;
-    padding-left: 16px;
+    padding-right: 8px;
     font-size: 14px;
-    direction: rtl;
     background: url("../images/earth.webp") 0 32% no-repeat;
     background-size: cover;
     border: 0.5px solid #ffffffbb;
@@ -17,10 +19,31 @@
     overflow-x: hidden;
 }
 
+#stats
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 50px;
+    color: #ffa500;
+    border-right: 0.5px solid #ffffffbb;
+}
+
+#history
+{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 8px;
+    width: 100%;
+    padding-left: 8px;
+    direction: rtl;
+    overflow-x: hidden;
+}
+
 .history-key
 {
     direction: ltr;
-    line-height: 1;
     white-space: nowrap;
 }
 
@@ -30,7 +53,6 @@
     grid-template-columns: repeat(46, 21px);
     grid-template-rows: repeat(13, 21px);
     gap: 8px;
-    width: fit-content;
     padding: 16px;
     background: url("../images/earth.webp") center no-repeat;
     background-size: cover;
@@ -46,7 +68,6 @@
     align-items: center;
     font-size: 14px;
     text-align: center;
-    line-height: 1;
     border: 0.5px solid #ffffffbb;
     border-radius: 5px;
     backdrop-filter: blur(3px);
