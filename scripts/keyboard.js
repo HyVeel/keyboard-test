@@ -1,21 +1,19 @@
-document.addEventListener("keydown", keylogger)
-document.addEventListener("keyup", keylogger)
+document.addEventListener("keydown", logKey)
+document.addEventListener("keyup", logKey)
 document.addEventListener("contextmenu", key => key.preventDefault())
+keyboard.addEventListener("click", fixClick)
 
-let stats = document.getElementById("stats")
 let history = document.getElementById("history")
 let historyLimit = 50
 let pressedKeys = 0
 
-function keylogger(key)
+function logKey(key)
 {
     key.preventDefault()
 
     if(!key.repeat)
     {
         pressKey("key-" + (key.code == "MetaLeft" ? "OSLeft" : key.code))
-        
-        stats.innerText = (pressedKeys == 0 ? "" : pressedKeys)
         
         if(key.type == "keydown" || key.code == "PrintScreen")
         {
@@ -33,6 +31,15 @@ function pressKey(keyName)
         key.classList.toggle("press")
 
         pressedKeys += (key.classList.contains("press") ? 1 : -1)
+        stats.innerText = (pressedKeys == 0 ? "" : pressedKeys)
     }
     else console.log(`%cError:%c There is no key with such id (${keyName})`, "color: red", "color: white")
+}
+
+function fixClick(click)
+{
+    let element = click.target
+
+    if(element.classList.contains("press")) pressKey(element.id)
+    else if(element.parentElement.classList.contains("press")) pressKey(element.parentElement.id)
 }
