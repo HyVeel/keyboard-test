@@ -8,8 +8,7 @@
 
 html
 {
-    font-size: 16px;
-    font-family: "Segoe UI", 'Lucida Sans', sans-serif;
+    font: 16px "Segoe UI", 'Lucida Sans', sans-serif;
     scroll-behavior: smooth;
 }
 
@@ -18,7 +17,6 @@ body
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 100%;
     min-height: 100vh;
     color: white;
     background-color: #1c1c24;
@@ -29,5 +27,4 @@ main
 {
     display: flex;
     justify-content: center;
-    width: 100%;
 }
